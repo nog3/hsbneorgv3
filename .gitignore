@@ -1,0 +1,8 @@
+_site
+.rvmrc
+.vimrc
+.bundle/*
+.vagrant/*
+vendor/bundle
+Gemfile.lock
+node_modules
