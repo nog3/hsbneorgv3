@@ -162,7 +162,7 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(./assets/img/intro-bg.jpg) no-repeat center center fixed;
+	background: url(assets/img/intro-bg.jpg) no-repeat center center fixed;
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -259,7 +259,7 @@ hr {
 /* Services Section */
 #services {
 	padding: 140px 0;
-	background: url(./assets/img/services-bg.jpg);
+	background: url(assets/img/services-bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -435,7 +435,7 @@ img.img-thumbnail.team-img {
 }
 /* Testimonials Section */
 #testimonials {
-	background: url(./assets/img/testimonials-bg.jpg);
+	background: url(assets/img/testimonials-bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	color: #ddd;
