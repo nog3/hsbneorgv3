@@ -220,7 +220,7 @@ hr {
 }
 /* About Section */
 #about {
-	padding: 140px 0;
+	padding: 10px 0;
 	background: #f6f6f6;
 }
 #about .about-text {
@@ -587,4 +587,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #intro .intro-body H1 {
 	font-size: 5em;
 }
+}
+
+.slider {
+	max-height: 300px !important;
+}
+
+.bodypad {
+	padding-top: 50px !important;
 }
