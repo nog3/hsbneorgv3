@@ -24,6 +24,7 @@ h3 {
 	font-weight: 700;
 	color: #555;
 }
+
 h4 {
 	font-weight: 500;
 	color: #555;
@@ -595,4 +596,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 .bodypad {
 	padding-top: 50px !important;
+}
+
+.inverted {
+	font-size:16px;
+	font-weight:700;
+	color: #fff;
 }
