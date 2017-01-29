@@ -81,15 +81,15 @@ function main() {
             $.get('https://www.eventbriteapi.com/v3/events/search/?sort_by=date&token=' + token + '&user.id=' + userid + '&include_all_series_instances=on&include_unavailable_events=on', function(res) {
                 if (res.events.length) {
                     var s = "";
-                    for (var i = 0; i < 6; i++) {
+                    for (var i = 0; i < 4; i++) {
                         var event = res.events[i];
                         var eventTime = moment(event.start.local).format('DD/MM');
                         var eventDay = moment(event.start.local).format('DD');
                         var eventMonth = moment(event.start.local).format('MMM'); 
-                    s += "<div class='media col-md-4'>";
+                    s += "<div class='media'>";
                     s += "<div class='media-left'><h2 class='media-heading'>" + eventDay + "</h2>"+ eventMonth + "</div>";
                     s += "<div class='media-body'>";
-                    s += "<h3 class='media-heading inverted'><a class='pull-left inverted text-justify' href='" + event.url + "'> " + event.name.text + "</a></h3>";
+                    s += "<h3 class='media-heading inverted'><a class=' pull-left inverted text-justify' href='" + event.url + "'> " + event.name.text + "</a></h3>";
                     s += "</div></div>";
                     }
                     $events.html(s);
