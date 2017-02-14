@@ -5,21 +5,15 @@ function main() {
 
 
         $(document).ready(function() {
-            $('.findslider').slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                autoplay: true,
-                dots: true,
-                arrows: true,
-                fade: true,
-                autoplaySpeed: 4000,
-                adaptiveHeight: false,
-                infinite: true,
+            $("a[rel^='prettyPhoto']").prettyPhoto({
+                social_tools: false,
+                overlay_gallery: false
             });
 
             
         });
     }());
+
 
 
 }
